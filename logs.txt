@@ -11,7 +11,7 @@ java -jar ${lombok jar file}
 
 or 
 
-add lombok.jar file to eclipse.app  == <see content> ==> add lombok.jar to content/eclipse and content/macOS
+add lombok.jar file to eclipse.app  == <see content> ==> add lombok.jar to content/eclipse and content/MacOS
 
 and then ,
 
@@ -25,3 +25,5 @@ under -vmargs
 
 in eclipse.ini
 
+** duplicated vmargs will crash the eclipse
+** make sure add lombok.jar to both content/eclipse and content/MacOS
