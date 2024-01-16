@@ -27,3 +27,21 @@ in eclipse.ini
 
 ** duplicated vmargs will crash the eclipse
 ** make sure add lombok.jar to both content/eclipse and content/MacOS
+
+
+
+2. Zsh shell always prompts 'command not found zshrc:104 \.'
+
+Reference :: ChatGPT
+
+
+Solution :
+
+in .zshrc
+
+104 : [ -s "$NVM_DIR/nvm.sh" ] && \\. "$NVM_DIR/nvm.sh"  # This loads nvm
+105 : [ -s "$NVM_DIR/bash_completion" ] && \\. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+remove \\ which is at the left side of the dot.
+
+nvm still works 
