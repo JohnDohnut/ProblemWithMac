@@ -13,6 +13,9 @@ or
 
 add lombok.jar file to eclipse.app  == <see content> ==> add lombok.jar to content/eclipse and content/macOS
 
+and then ,
+
+
 add 
 
 -Xbootclasspath/a:lombok.jar
