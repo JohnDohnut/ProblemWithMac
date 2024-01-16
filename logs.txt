@@ -1,6 +1,11 @@
 1. Eclipse LOMBOK installation
 
+Reference :: 
+
 https://stackoverflow.com/questions/38454275/lombok-not-working-on-eclipse-mars-on-mac-10-11-3
+
+
+Summary :: 
 
 java -jar ${lombok jar file} 
 
