@@ -45,3 +45,18 @@ in .zshrc
 remove \\ which is at the left side of the dot.
 
 nvm still works 
+
+
+
+3. mac + eclipse + tomcat,  servlet mapping not applied.
+
+
+If user just make and run server, there's no context tag in host tag.
+
+      <Context docBase="project_name" path="/" reloadable="true" source="org.eclipse.jst.jee.server:project_name"/>
+
+But if you run the servlet via right-click -> run as -> run on server, 
+
+eclipse (maybe tomcat) adds context tag in server.xml in server.
+
+
